@@ -1,0 +1,42 @@
+$primary: #0f0f0f;
+
+.hover-red:hover {
+  color: red !important;
+}
+
+.text-grey {
+  color: #aaa !important;
+}
+
+.icon-color {
+  filter: invert(60%) brightness(80%);
+  transition: 0.2s ease;
+}
+
+.hover-red:hover * {
+  color: red !important;
+}
+
+.hover-red:hover .icon-color {
+  filter: invert(22%) sepia(96%) saturate(7483%) hue-rotate(3deg)
+    brightness(96%) contrast(104%);
+}
+
+.custom-border {
+  border-top: 1px solid #1a1a1a !important;
+}
+
+.custom-border-bottom {
+  border-bottom: 1px solid #000000 !important;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1500px !important;
+  }
+}
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/bootstrap";
