@@ -1,4 +1,5 @@
 $primary: #0f0f0f;
+$danger: #ff0000;
 
 .hover-red:hover {
   color: red !important;
@@ -34,6 +35,47 @@ $primary: #0f0f0f;
   .container {
     max-width: 1500px !important;
   }
+}
+
+.section-title {
+  position: relative;
+  padding-left: 15px;
+  font-size: 1.8rem;
+}
+
+.section-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 5px;
+  height: 100%;
+  background-color: red;
+  border-radius: 2px;
+}
+
+.movie-thumb {
+  width: 215px;
+  height: 301px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.feature-movies {
+  margin: 30px 50px;
+}
+
+.red-bar {
+  width: 4px;
+  height: 14px;
+  background-color: red;
+  display: inline-block;
+  margin-right: 6px;
+  border-radius: 2px;
+}
+
+.rounded-top-left {
+  border-top-left-radius: 1rem;
 }
 
 @import "../node_modules/bootstrap/scss/functions";
