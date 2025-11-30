@@ -59,38 +59,15 @@
                 Genre</a
               >
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li>
+                  <a class="dropdown-item" href="./action.html">Action</a>
+                </li>
                 <li>
                   <a class="dropdown-item" href="./horror.html">Horror</a>
                 </li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
               </ul>
             </li>
-            <li
-              style="height: 70px"
-              class="d-flex nav-item dropdown align-items-center"
-            >
-              <a
-                href="#"
-                class="text-grey d-flex align-items-center gap-2 fs-6 nav-link dropdown-toggle hover-red"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                <img
-                  style="width: 18px; height: 18px"
-                  src="./assets/folder-icon.svg"
-                  alt="folder-icon"
-                  class="img-fluid icon-color"
-                />
-                Year</a
-              >
-            </li>
-          </ul>
+
         </div>
       </div>
     </nav>
@@ -101,6 +78,7 @@
       style="margin-top: 70px; min-height: 100vh"
       class="bg-primary custom-border"
     >
+    
       <!-- search start -->
       <form
         id="searchForm"
@@ -112,19 +90,19 @@
           id="searchInput"
           placeholder="Search Here..."
           style="width: 1408px; height: 49px"
-          class="bg-black border-0 rounded-1 p-4 text-gray fs-6"
+          class="bg-black border-0 rounded-1 p-4 text-white fs-6"
         />
       </form>
       <!-- search end -->
 
       <div class="movie-wrapper">
+
         <!-- Feature start -->
         <h3 class="section-title feature-movies text-white">FEATURED</h3>
 
-        <!-- Movei 1 -->
         <div class="d-flex flex-row gap-4 feature-movies">
           <div class="movie-card text-center position-relative">
-            <a href="watch.html" class="movie-link">
+            <a href="movie.html?id=agak-laen" class="movie-link">
               <div class="movie-image-wrapper">
                 <img
                   src="./assets/agak-laen.jpg"
@@ -144,16 +122,15 @@
               </div>
             </a>
             <a
-              href="watch.html"
+              href="movie.html?id=agak-laen"
               class="text-white fw-semibold mt-2 hover-red hover-red"
               >Agak Laen</a
             >
             <div class="text-white">2024</div>
           </div>
 
-          <!-- Movie 2 -->
           <div class="movie-card text-center position-relative">
-            <a href="watch.html" class="movie-link">
+            <a href="movie.html?id=jalan-pulang" class="movie-link">
               <div class="movie-image-wrapper">
                 <img
                   src="./assets/jalan-pulang.jpg"
@@ -175,7 +152,7 @@
               </div>
             </a>
             <a
-              href="watch.html"
+              href="movie.html?id=jalan-pulang"
               class="text-white fw-semibold mt-2 movie-title-link hover-red"
             >
               Jalan Pulang
@@ -183,9 +160,8 @@
             <div class="text-white">2023</div>
           </div>
 
-          <!-- Movie 3 -->
           <div class="movie-card text-center position-relative">
-            <a href="watch.html" class="movie-link">
+            <a href="movie.html?id=kkn-desa-penari" class="movie-link">
               <div class="movie-image-wrapper">
                 <img src="./assets/kkn.jpg" alt="movie-3" class="movie-thumb" />
                 <img
@@ -203,7 +179,7 @@
               </div>
             </a>
             <a
-              href="watch.html"
+              href="movie.html?id=kkn-desa-penari"
               class="text-white fw-semibold mt-2 movie-title-link hover-red"
             >
               KKN Desa Penari
@@ -211,9 +187,8 @@
             <div class="text-white">2022</div>
           </div>
 
-          <!-- Movie 4 -->
           <div class="movie-card text-center position-relative">
-            <a href="watch.html" class="movie-link">
+            <a href="movie.html?id=penjagal-iblis" class="movie-link">
               <div class="movie-image-wrapper">
                 <img
                   src="./assets/penjagal-iblis.jpg"
@@ -235,7 +210,7 @@
               </div>
             </a>
             <a
-              href="watch.html"
+              href="movie.html?id=penjagal-iblis"
               class="text-white fw-semibold mt-2 movie-title-link hover-red"
             >
               Penjagal Iblis
@@ -243,9 +218,8 @@
             <div class="text-white">2025</div>
           </div>
 
-          <!-- Movie 5 -->
           <div class="movie-card text-center position-relative">
-            <a href="watch.html" class="movie-link">
+            <a href="movie.html?id=waktu-maghrib" class="movie-link">
               <div class="movie-image-wrapper">
                 <img
                   src="./assets/waktu-maghrib.jpg"
@@ -267,7 +241,7 @@
               </div>
             </a>
             <a
-              href="watch.html"
+              href="movie.html?id=waktu-maghrib"
               class="text-white fw-semibold mt-2 movie-title-link hover-red"
             >
               Waktu Maghrib
@@ -275,9 +249,8 @@
             <div class="text-white">2023</div>
           </div>
 
-          <!-- Movie 6 -->
           <div class="movie-card text-center position-relative">
-            <a href="watch.html" class="movie-link">
+            <a href="movie.html?id=santet-segoro-pitu" class="movie-link">
               <div class="movie-image-wrapper">
                 <img
                   src="./assets/santet-segoro-7.jpg"
@@ -299,7 +272,7 @@
               </div>
             </a>
             <a
-              href="watch.html"
+              href="movie.html?id=santet-segoro-pitu  "
               class="text-white fw-semibold mt-2 movie-title-link hover-red"
             >
               Santet Segoro Pitu
@@ -315,10 +288,10 @@
 
           <div class="d-flex flex-row gap-4 feature-movies">
             <div class="movie-card text-center position-relative">
-              <a href="watch.html" class="movie-link">
+              <a href="movie.html?id=13-bom-di-jakarta" class="movie-link">
                 <div class="movie-image-wrapper">
                   <img
-                    src="./assets/agak-laen.jpg"
+                    src="./assets/13-Bom-di-Jakarta.jpg"
                     alt="movie-1"
                     class="movie-thumb"
                   />
@@ -330,19 +303,19 @@
                 </div>
               </a>
               <a
-                href="watch.html"
+                href="movie.html?id=13-bom-di-jakarta"
                 class="text-white fw-semibold mt-2 movie-title-link hover-red"
               >
-                Agak Laen
+                13 Bom di Jakarta
               </a>
-              <div class="text-white">2024</div>
+              <div class="text-white">2023</div>
             </div>
 
             <div class="movie-card text-center position-relative">
-              <a href="watch.html" class="movie-link">
+              <a href="movie.html?id=big-4" class="movie-link">
                 <div class="movie-image-wrapper">
                   <img
-                    src="./assets/jalan-pulang.jpg"
+                    src="./assets/big-4.jpg"
                     alt="movie-2"
                     class="movie-thumb"
                   />
@@ -354,19 +327,19 @@
                 </div>
               </a>
               <a
-                href="watch.html"
+                href="movie.html?id=big-4"
                 class="text-white fw-semibold mt-2 movie-title-link hover-red"
               >
-                Jalan Pulang
+                Big Four
               </a>
-              <div class="text-white">2023</div>
+              <div class="text-white">2022</div>
             </div>
 
             <div class="movie-card text-center position-relative">
-              <a href="watch.html" class="movie-link">
+              <a href="movie.html?id=java-heat" class="movie-link">
                 <div class="movie-image-wrapper">
                   <img
-                    src="./assets/kkn.jpg"
+                    src="./assets/Java-Heat.jpg"
                     alt="movie-3"
                     class="movie-thumb"
                   />
@@ -378,19 +351,19 @@
                 </div>
               </a>
               <a
-                href="watch.html"
+                href="movie.html?id=java-heat"
                 class="text-white fw-semibold mt-2 movie-title-link hover-red"
               >
-                KKN Desa Penari
+                Java Heat
               </a>
-              <div class="text-white">2022</div>
+              <div class="text-white">2013</div>
             </div>
 
             <div class="movie-card text-center position-relative">
-              <a href="watch.html" class="movie-link">
+              <a href="movie.html?id=hit-and-run" class="movie-link">
                 <div class="movie-image-wrapper">
                   <img
-                    src="./assets/penjagal-iblis.jpg"
+                    src="./assets/Hit-&-Run.jpg"
                     alt="movie-4"
                     class="movie-thumb"
                   />
@@ -402,19 +375,19 @@
                 </div>
               </a>
               <a
-                href="watch.html"
+                href="movie.html?id=hit-and-run"
                 class="text-white fw-semibold mt-2 movie-title-link hover-red"
               >
-                Penjagal Iblis
+                Hit & Run
               </a>
-              <div class="text-white">2025</div>
+              <div class="text-white">2019</div>
             </div>
 
             <div class="movie-card text-center position-relative">
-              <a href="watch.html" class="movie-link">
+              <a href="movie.html?id=pertaruhan" class="movie-link">
                 <div class="movie-image-wrapper">
                   <img
-                    src="./assets/waktu-maghrib.jpg"
+                    src="./assets/Pertaruhan.jpg"
                     alt="movie-5"
                     class="movie-thumb"
                   />
@@ -426,19 +399,19 @@
                 </div>
               </a>
               <a
-                href="watch.html"
+                href="movie.html?id=pertaruhan"
                 class="text-white fw-semibold mt-2 movie-title-link hover-red"
               >
-                Waktu Maghrib
+                Pertaruhan
               </a>
-              <div class="text-white">2023</div>
+              <div class="text-white">2022</div>
             </div>
 
             <div class="movie-card text-center position-relative">
-              <a href="watch.html" class="movie-link">
+              <a href="movie.html?id=the-night-comes-for-us" class="movie-link">
                 <div class="movie-image-wrapper">
                   <img
-                    src="./assets/santet-segoro-7.jpg"
+                    src="./assets/The-Night-Comes-For-Us.jpg"
                     alt="movie-6"
                     class="movie-thumb"
                   />
@@ -450,18 +423,55 @@
                 </div>
               </a>
               <a
-                href="watch.html"
+                href="movie.html?id=the-night-comes-for-us"
                 class="text-white fw-semibold mt-2 movie-title-link hover-red"
               >
-                Santet Segoro Pitu
+                The Night Comes For Us
               </a>
-              <div class="text-white">2024</div>
+              <div class="text-white">2018</div>
             </div>
           </div>
         </div>
         <!-- Action end -->
+
+        <!-- footer start -->
+        <footer class="text-white mt-5 pt-5 custom-border">
+          <div class="container">
+            <div class="mb-4">
+              <img
+                src="./assets/Iflix-logo.png"
+                alt="Iflix-logo"
+                style="width: 250px; height: auto"
+              />
+            </div>
+
+            <div class="row" style="padding-left: 50px">
+              <div class="col-md-6">
+                <p class="text-secondary" style="font-size: 14px">
+                  Iflix adalah Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Est obcaecati error tempora architecto
+                  aliquam ex omnis alias totam aut at sapiente, temporibus
+                  corrupti incidunt natus. Mollitia, itaque optio velit beatae
+                  impedit inventore hic consequuntur nulla magnam aspernatur
+                  error et quos animi delectus laboriosam aliquid quaerat non
+                  adipisci ut similique sint tenetur! Voluptatum sapiente
+                  voluptatem magnam, et accusantium repudiandae soluta
+                  temporibus? Iusto veniam nam obcaecati consequuntur nesciunt.
+                </p>
+              </div>
+            </div>
+            <div class="mt-5 py-3 custom-border" style="padding-left: 50px">
+              <span class="text-secondary" style="font-size: 14px">
+                © 2024 Iflix Clone — Example Footer
+              </span>
+            </div>
+          </div>
+        </footer>
+        <!-- footer end  -->
+
       </div>
     </div>
     <!-- content end -->
+
   </body>
 </html>

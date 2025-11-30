@@ -1,6 +1,26 @@
 @charset "UTF-8";
+#searchInput::-moz-placeholder {
+  color: #ccc !important;
+}
+#searchInput::placeholder {
+  color: #ccc !important;
+}
+
 #navbar {
   transition: opacity 0.3s ease;
+}
+
+.navbar .dropdown-menu {
+  background-color: #000 !important;
+}
+
+.navbar .dropdown-item {
+  color: #fff;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: #0f0f0f !important;
+  color: #fff !important;
 }
 
 .hover-red:hover {
@@ -166,7 +186,7 @@ a {
   padding-left: 45px;
   padding-right: 45px;
   padding-top: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 10px;
 }
 
 .page {

@@ -59,38 +59,15 @@
                 Genre</a
               >
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="./action.html">Action</a></li>
+                <li>
+                  <a class="dropdown-item" href="./action.html">Action</a>
+                </li>
                 <li>
                   <a class="dropdown-item" href="./horror.html">Horror</a>
                 </li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
               </ul>
             </li>
-            <li
-              style="height: 70px"
-              class="d-flex nav-item dropdown align-items-center"
-            >
-              <a
-                href="#"
-                class="text-grey d-flex align-items-center gap-2 fs-6 nav-link dropdown-toggle hover-red"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                <img
-                  style="width: 18px; height: 18px"
-                  src="./assets/folder-icon.svg"
-                  alt="folder-icon"
-                  class="img-fluid icon-color"
-                />
-                Year</a
-              >
-            </li>
-          </ul>
+
         </div>
       </div>
     </nav>
@@ -112,115 +89,324 @@
           id="searchInput"
           placeholder="Search Here..."
           style="width: 1408px; height: 49px"
-          class="bg-black border-0 rounded-1 p-4 text-gray fs-6"
+          class="bg-black border-0 rounded-1 p-4 text-white fs-6"
         />
       </form>
       <!-- search end -->
 
-      <!-- Horror start -->
-      <h3 class="section-title feature-movies text-white">HOROR</h3>
+      <!-- Action start -->
+      <h3 class="section-title feature-movies text-white">ACTION</h3>
 
       <div class="d-flex flex-row gap-4 feature-movies">
-        <div class="text-center position-relative">
-          <img src="./assets/big-4.jpg" alt="movie-1" class="movie-thumb" />
-          <div class="text-white fw-semibold mt-2">Big Four</div>
+        <div class="movie-card text-center position-relative">
+          <a href="movie.html?id=big-4" class="movie-link">
+            <div class="movie-image-wrapper">
+              <img src="./assets/big-4.jpg" alt="movie-1" class="movie-thumb" />
+              <img
+                src="./assets/Iflix-logo.png"
+                class="movie-logo"
+                alt="logo"
+              />
+            </div>
+          </a>
+          <a
+            href="movie.html?id=big-4"
+            class="text-white fw-semibold mt-2 movie-title-link hover-red"
+            >Big Four</a
+          >
           <div class="text-white">2022</div>
         </div>
-        <div class="text-center position-relative">
-          <img
-            src="./assets/Java Heat.jpg"
-            alt="movie-2"
-            class="movie-thumb"
-          />
-          <div class="text-white fw-semibold mt-2">Java Heat</div>
+
+        <div class="movie-card text-center position-relative">
+          <a href="movie.html?id=java-heat" class="movie-link">
+            <div class="movie-image-wrapper">
+              <img
+                src="./assets/Java-Heat.jpg"
+                alt="movie-2"
+                class="movie-thumb"
+              />
+              <img
+                src="./assets/Iflix-logo.png"
+                class="movie-logo"
+                alt="logo"
+              />
+            </div>
+          </a>
+          <a
+            href="movie.html?id=java-heat"
+            class="text-white fw-semibold mt-2 movie-title-link hover-red"
+            >Java Heat</a
+          >
           <div class="text-white">2013</div>
         </div>
-        <div class="text-center position-relative">
-          <img src="./assets/Foxtrot Six.jpg" alt="movie-3" class="movie-thumb" />
 
-          <div class="text-white fw-semibold mt-2">Foxtrot Six</div>
+        <div class="movie-card text-center position-relative">
+          <a href="movie.html?id=foxtrot" class="movie-link">
+            <div class="movie-image-wrapper">
+              <img
+                src="./assets/Foxtrot-Six.jpg"
+                alt="movie-3"
+                class="movie-thumb"
+              />
+              <img
+                src="./assets/Iflix-logo.png"
+                class="movie-logo"
+                alt="logo"
+              />
+            </div>
+          </a>
+          <a
+            href="movie.html?id=forxtrot"
+            class="text-white fw-semibold mt-2 movie-title-link hover-red"
+            >Foxtrot Six</a
+          >
           <div class="text-white">2019</div>
         </div>
-        <div class="text-center position-relative">
-          <img
-            src="./assets/13 Bom di Jakarta.jpg"
-            alt="movie-3"
-            class="movie-thumb"
-          />
-          <div class="text-white fw-semibold mt-2">13 Bom di Jakarta</div>
+
+        <div class="movie-card text-center position-relative">
+          <a href="movie.html?id=13-bom-di-jakarta" class="movie-link">
+            <div class="movie-image-wrapper">
+              <img
+                src="./assets/13-Bom-di-Jakarta.jpg"
+                alt="movie-3"
+                class="movie-thumb"
+              />
+              <img
+                src="./assets/Iflix-logo.png"
+                class="movie-logo"
+                alt="logo"
+              />
+            </div>
+          </a>
+          <a
+            href="movie.html?id=13-bom-di-jakarta"
+            class="text-white fw-semibold mt-2 movie-title-link hover-red"
+            >13 Bom di Jakarta</a
+          >
           <div class="text-white">2023</div>
         </div>
-        <div class="text-center position-relative">
-          <img
-            src="./assets/The Raid 2.jpeg"
-            alt="movie-3"
-            class="movie-thumb"
-          />
-          <div class="text-white fw-semibold mt-2">The Raid 2</div>
+
+        <div class="movie-card text-center position-relative">
+          <a href="movie.html?id=the-raid-2" class="movie-link">
+            <div class="movie-image-wrapper">
+              <img
+                src="./assets/The-Raid-2.jpeg"
+                alt="movie-3"
+                class="movie-thumb"
+              />
+              <img
+                src="./assets/Iflix-logo.png"
+                class="movie-logo"
+                alt="logo"
+              />
+            </div>
+          </a>
+          <a
+            href="movie.html?id=the-raid-2"
+            class="text-white fw-semibold mt-2 movie-title-link hover-red"
+            >The Raid 2</a
+          >
           <div class="text-white">2014</div>
         </div>
-        <div class="text-center position-relative">
-          <img
-            src="./assets/Gundala.jpg"
-            alt="movie-3"
-            class="movie-thumb"
-          />
-          <div class="text-white fw-semibold mt-2">Gundala</div>
+
+        <div class="movie-card text-center position-relative">
+          <a href="movie.html?id=gundala" class="movie-link">
+            <div class="movie-image-wrapper">
+              <img
+                src="./assets/Gundala.jpg"
+                alt="movie-6"
+                class="movie-thumb"
+              />
+              <img
+                src="./assets/Iflix-logo.png"
+                class="movie-logo"
+                alt="logo"
+              />
+            </div>
+          </a>
+          <a
+            href="movie.html?id=gundala"
+            class="text-white fw-semibold mt-2 movie-title-link hover-red"
+            >Gundala</a
+          >
           <div class="text-white">2019</div>
         </div>
       </div>
+
       <div class="d-flex flex-row gap-4 feature-movies">
-        <div class="text-center position-relative">
-          <img src="./assets/The Shadow strays.jpg" alt="movie-1" class="movie-thumb" />
-          <div class="text-white fw-semibold mt-2">The Shadow strays</div>
+        <div class="movie-card text-center position-relative">
+          <a href="movie.html?id=the-shadows-strays" class="movie-link">
+            <div class="movie-image-wrapper">
+              <img
+                src="./assets/The-Shadow-strays.jpg"
+                alt="movie-1"
+                class="movie-thumb"
+              />
+              <img
+                src="./assets/Iflix-logo.png"
+                class="movie-logo"
+                alt="logo"
+              />
+            </div>
+          </a>
+          <a
+            href="movie.html?id=the-shadow-strays"
+            class="text-white fw-semibold mt-2 movie-title-link hover-red"
+            >The Shadow Strays</a
+          >
           <div class="text-white">2024</div>
         </div>
-        <div class="text-center position-relative">
-          <img
-            src="./assets/Headshot.jpg"
-            alt="movie-2"
-            class="movie-thumb"
-          />
-          <div class="text-white fw-semibold mt-2">Headshot</div>
+
+        <div class="movie-card text-center position-relative">
+          <a href="movie.html?id=headshot" class="movie-link">
+            <div class="movie-image-wrapper">
+              <img
+                src="./assets/Headshot.jpg"
+                alt="movie-2"
+                class="movie-thumb"
+              />
+              <img
+                src="./assets/Iflix-logo.png"
+                class="movie-logo"
+                alt="logo"
+              />
+            </div>
+          </a>
+          <a
+            href="movie.html?id=headshot"
+            class="text-white fw-semibold mt-2 movie-title-link hover-red"
+            >Headshot</a
+          >
           <div class="text-white">2016</div>
         </div>
-        <div class="text-center position-relative">
-          <img src="./assets/Hitmen.jpg" alt="movie-3" class="movie-thumb" />
 
-          <div class="text-white fw-semibold mt-2">Hitmen</div>
+        <div class="movie-card text-center position-relative">
+          <a href="movie.html?id=hitmen" class="movie-link">
+            <div class="movie-image-wrapper">
+              <img
+                src="./assets/Hitmen.jpg"
+                alt="movie-3"
+                class="movie-thumb"
+              />
+              <img
+                src="./assets/Iflix-logo.png"
+                class="movie-logo"
+                alt="logo"
+              />
+            </div>
+          </a>
+          <a
+            href="movie.html?id=hitmen"
+            class="text-white fw-semibold mt-2 movie-title-link hover-red"
+            >Hitmen</a
+          >
           <div class="text-white">2023</div>
         </div>
-        <div class="text-center position-relative">
-          <img
-            src="./assets/The-Night-Comes-For-Us.jpg"
-            alt="movie-3"
-            class="movie-thumb"
-          />
-          <div class="text-white fw-semibold mt-2">The Night Comes For Us</div>
+
+        <div class="movie-card text-center position-relative">
+          <a href="movie.html?id=the-night-comes-for-us" class="movie-link">
+            <div class="movie-image-wrapper">
+              <img
+                src="./assets/The-Night-Comes-For-Us.jpg"
+                alt="movie-3"
+                class="movie-thumb"
+              />
+              <img
+                src="./assets/Iflix-logo.png"
+                class="movie-logo"
+                alt="logo"
+              />
+            </div>
+          </a>
+          <a
+            href="movie.html?id=the-night-comes-for-us"
+            class="text-white fw-semibold mt-2 movie-title-link hover-red"
+            >The Night Comes For Us</a
+          >
           <div class="text-white">2018</div>
         </div>
-        <div class="text-center position-relative">
-          <img
-            src="./assets/Hit & Run.jpg"
-            alt="movie-3"
-            class="movie-thumb"
-          />
-          <div class="text-white fw-semibold mt-2">Hit & Run</div>
+
+        <div class="movie-card text-center position-relative">
+          <a href="movie.html?id=hit-and-run" class="movie-link">
+            <div class="movie-image-wrapper">
+              <img
+                src="./assets/Hit-&-Run.jpg"
+                alt="movie-3"
+                class="movie-thumb"
+              />
+              <img
+                src="./assets/Iflix-logo.png"
+                class="movie-logo"
+                alt="logo"
+              />
+            </div>
+          </a>
+          <a
+            href="movie.html?id=hit-and-run"
+            class="text-white fw-semibold mt-2 movie-title-link hover-red"
+            >Hit & Run</a
+          >
           <div class="text-white">2019</div>
         </div>
-        <div class="text-center position-relative">
-          <img
-            src="./assets/Pertaruhan.jpg"
-            alt="movie-3"
-            class="movie-thumb"
-          />
-          <div class="text-white fw-semibold mt-2">Pertaruhan</div>
+
+        <div class="movie-card text-center position-relative">
+          <a href="movie.html?id=pertaruhan" class="movie-link">
+            <div class="movie-image-wrapper">
+              <img
+                src="./assets/Pertaruhan.jpg"
+                alt="movie-3"
+                class="movie-thumb"
+              />
+              <img
+                src="./assets/Iflix-logo.png"
+                class="movie-logo"
+                alt="logo"
+              />
+            </div>
+          </a>
+          <a
+            href="movie.html?id=pertaruhan"
+            class="text-white fw-semibold mt-2 movie-title-link hover-red"
+            >Pertaruhan</a
+          >
           <div class="text-white">2022</div>
         </div>
       </div>
-      
-      <!-- Horror end -->
-      <h1 class="text-center text-white">Hello World</h1>
+      <!-- Action end -->
+      <!-- footer start -->
+      <footer class="text-white mt-5 pt-5 custom-border">
+        <div class="container">
+          <div class="mb-4">
+            <img
+              src="./assets/Iflix-logo.png"
+              alt="Iflix-logo"
+              style="width: 250px; height: auto"
+            />
+          </div>
+
+          <div class="row" style="padding-left: 50px">
+            <div class="col-md-6">
+              <p class="text-secondary" style="font-size: 14px">
+                Iflix adalah Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Est obcaecati error tempora architecto aliquam ex omnis
+                alias totam aut at sapiente, temporibus corrupti incidunt natus.
+                Mollitia, itaque optio velit beatae impedit inventore hic
+                consequuntur nulla magnam aspernatur error et quos animi
+                delectus laboriosam aliquid quaerat non adipisci ut similique
+                sint tenetur! Voluptatum sapiente voluptatem magnam, et
+                accusantium repudiandae soluta temporibus? Iusto veniam nam
+                obcaecati consequuntur nesciunt.
+              </p>
+            </div>
+          </div>
+          <div class="mt-5 py-3 custom-border" style="padding-left: 50px">
+            <span class="text-secondary" style="font-size: 14px">
+              © 2024 Iflix Clone — Example Footer
+            </span>
+          </div>
+        </div>
+      </footer>
+      <!-- footer end  -->
     </div>
     <!-- content end -->
   </body>
