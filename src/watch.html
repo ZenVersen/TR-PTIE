@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Iflix - HOME</title>
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    /> -->
+  </head>
+  <body class="bg-black container">
+    <!-- navbar start -->
+    <nav
+      style="height: 70px"
+      class="navbar fixed-top navbar-expand-md navbar-dark bg-primary custom-border-bottom"
+    >
+      <div style="height: 70px" class="container">
+        <a href="./home.html" class="text-white">
+          <img
+            style="width: 140px; height: 50px"
+            src="./assets/Iflix-logo.png"
+            alt="Iflix-logo"
+            class="img-fluid"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li
+              style="height: 70px"
+              class="d-flex nav-item dropdown align-items-center"
+            >
+              <a
+                href="#"
+                class="text-grey d-flex align-items-center gap-2 fs-6 nav-link dropdown-toggle hover-red"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img
+                  style="width: 18px; height: 18px"
+                  src="./assets/folder-icon.svg"
+                  alt="folder-icon"
+                  class="img-fluid icon-color"
+                />
+                Genre</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li>
+                  <a class="dropdown-item" href="./horror.html">Horror</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li
+              style="height: 70px"
+              class="d-flex nav-item dropdown align-items-center"
+            >
+              <a
+                href="#"
+                class="text-grey d-flex align-items-center gap-2 fs-6 nav-link dropdown-toggle hover-red"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img
+                  style="width: 18px; height: 18px"
+                  src="./assets/folder-icon.svg"
+                  alt="folder-icon"
+                  class="img-fluid icon-color"
+                />
+                Year</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- content start  -->
+    <div
+      style="margin-top: 70px; min-height: 100vh"
+      class="bg-primary custom-border"
+    ></div>
+
+    <!-- content end -->
+  </body>
+</html>
